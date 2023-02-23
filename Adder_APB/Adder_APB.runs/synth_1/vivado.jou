@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 23 02:52:05 2023
+# Process ID: 19128
+# Current directory: F:/Xilinx/My projects/Github_uploads/Adder_APB/Adder_APB.runs/synth_1
+# Command line: vivado.exe -log apb_master_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source apb_master_adder.tcl
+# Log file: F:/Xilinx/My projects/Github_uploads/Adder_APB/Adder_APB.runs/synth_1/apb_master_adder.vds
+# Journal file: F:/Xilinx/My projects/Github_uploads/Adder_APB/Adder_APB.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source apb_master_adder.tcl -notrace

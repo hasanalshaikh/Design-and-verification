@@ -1,0 +1,217 @@
+$date
+   Thu Feb 23 02:41:32 2023
+$end
+$version
+  2020.2
+$end
+$timescale
+  1ps
+$end
+$scope module apb_slave_tb $end
+$var reg 1 ! pclk $end
+$var reg 1 " preset_n $end
+$var reg 2 # add_i [1:0] $end
+$var reg 1 $ psel_o $end
+$var reg 1 % penable_o $end
+$var reg 32 & paddr_o [31:0] $end
+$var reg 1 ' pwrite_o $end
+$var reg 32 ( pwdata_o [31:0] $end
+$var reg 32 ) prdata_i [31:0] $end
+$var reg 1 * pready_i $end
+$scope module APB_MASTER $end
+$var wire 1 + pclk $end
+$var wire 1 , preset_n $end
+$var wire 2 - add_i [1:0] $end
+$var wire 1 . psel_o $end
+$var wire 1 / penable_o $end
+$var wire 32 0 paddr_o [31:0] $end
+$var wire 1 1 pwrite_o $end
+$var wire 32 2 pwdata_o [31:0] $end
+$var wire 32 3 prdata_i [31:0] $end
+$var wire 1 4 pready_i $end
+$var wire 1 5 apb_acess_state $end
+$var wire 1 6 pwrite_o_t $end
+$var wire 32 7 pread_data [31:0] $end
+$var wire 32 8 pwdata_o_t [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+b0 #
+0$
+0%
+b0 &
+0'
+b0 (
+bx )
+0*
+0+
+0,
+b0 -
+0.
+0/
+b0 0
+01
+b0 2
+bx 3
+04
+05
+06
+b0 7
+b1 8
+$end
+#5000
+1!
+0*
+1+
+#10000
+0!
+0+
+#15000
+1!
+1"
+b111011 )
+0*
+1+
+1,
+b111011 3
+#20000
+0!
+0+
+#25000
+1!
+b11110001 )
+0*
+1+
+b11110001 3
+#30000
+0!
+0+
+#35000
+1!
+b1 #
+b10000001 )
+0*
+1+
+b1 -
+b10000001 3
+#40000
+0!
+0+
+#45000
+1!
+b0 #
+1$
+b101100 )
+0*
+1+
+b0 -
+1.
+b101100 3
+#50000
+0!
+0+
+#55000
+1!
+1%
+b10100000000000000000000000000000 &
+b10001101 )
+0*
+1+
+1/
+b10100000000000000000000000000000 0
+b10001101 3
+15
+#60000
+0!
+0+
+#65000
+1!
+b11101 )
+1*
+1+
+b11101 3
+14
+#70000
+0!
+0+
+#75000
+1!
+b11110 )
+1*
+1+
+b11110 3
+b11101 7
+b11110 8
+#80000
+0!
+0+
+#85000
+1!
+b11 #
+0$
+0%
+1'
+b1011 )
+1*
+1+
+b11 -
+0.
+0/
+11
+b1011 3
+16
+#90000
+0!
+0+
+#95000
+1!
+b0 #
+1$
+b1001000 )
+0*
+1+
+b0 -
+1.
+b1001000 3
+04
+#100000
+0!
+0+
+#105000
+1!
+1%
+b11110 (
+b1010010 )
+0*
+1+
+1/
+b11110 2
+b1010010 3
+#110000
+0!
+0+
+#115000
+1!
+b11001 )
+1*
+1+
+b11001 3
+14
+#120000
+0!
+0+
+#125000
+1!
+b1001 )
+1*
+1+
+b1001 3
+#130000
+0!
+0+
+#135000
+1!
